@@ -5,10 +5,10 @@ int main()
 	long long seconds;
 	std::cin >> seconds;
 
-	const long long sec_in_week = 604800;
-	const long long sec_in_day = 86400;
-	const long long sec_in_hour = 3600;
-	const long long sec_in_min = 60;
+	const long long sec_in_week = 604800; //секунд в неделе
+	const long long sec_in_day = 86400; //секунд в дне
+	const long long sec_in_hour = 3600; //секунд в часе
+	const long long sec_in_min = 60; //секунд в минуте
 
 	std::cout << seconds / sec_in_week << " weeks, ";
 	seconds %= sec_in_week;
